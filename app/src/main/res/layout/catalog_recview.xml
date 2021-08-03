@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/Card_Item"
+        android:layout_width="421dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:background="@drawable/white_circular_border"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/meue"
+            android:layout_width="73dp"
+            android:layout_height="91dp"
+            android:layout_gravity="top"
+            android:paddingStart="40dp"
+
+            android:src="@drawable/ic_mene" />
+
+        <TextView
+            android:id="@+id/tv_gatelodge"
+            android:layout_width="167dp"
+            android:layout_height="94dp"
+            android:layout_gravity="left"
+            android:fontFamily="@font/proximanovaregular"
+            android:gravity="center"
+            android:text="New"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/im_gatelodge"
+            android:layout_width="226dp"
+            android:layout_height="134dp"
+            android:layout_gravity="left"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

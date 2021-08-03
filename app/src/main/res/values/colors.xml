@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--
+First_Main_Login
+-->
+    <color name="white">#FFFFFF</color>
+    <color name="textcolor">#1A1A1A</color>
+    <!--
+   Login
+    -->
+    <color name="fab">#FFFFFF</color>
+
+    <color name="bg_color">#f3f5f9</color>
+    <color name="darkgrey">#424242</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightBlue">#376DF6</color>
+    <color name="orange">#FA6B1B</color>
+    <color name="textColor">#060606</color>
+    <color name="start">#FFBA49</color>
+    <color name="gray">#A0A0A0</color>
+
+
+    <!--
+      profile
+       -->
+
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="orange_profile">#FFCF66</color>
+    <color name="cancel_profile">#FF0000</color>
+
+</resources>

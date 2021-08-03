@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">FinalProjectLab2</string>
+    <string name="facebook">Facebook</string>
+    <string name="Check_Out">CHECK OUT</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="add_Prodcut">ADD Prodcut</string>
+    <string name="add_Catalog">ADD Catalog </string>
+
+
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login_activity">login_activity</string>
+    <string name="new_account">New Account</string>
+    <string name="change_Passworad">Change Password</string>
+    <string name="signup_desc">Start by entering your name and categorie below.</string>
+    <string name="change_Passworad_desc">This Page For Change Current Password .</string>
+
+    <string name="login_desc">Enter your login details to access your account</string>
+    <string name="log_in">Log In</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_item_desc">Enter your Item details </string>
+
+    <string name="message">This App will send you an SMS message for verification and standard rates apply.. Kindly enter your phone Number</string>
+
+    <string name="reset_pass_message">Seems like you forgot your password for MarksPlus. If this is true, click below to reset your password.</string>
+    <string name="title_home">Home</string>
+    <string name="title_Shop">Shop</string>
+    <string name="title_Bag">Bag</string>
+    <string name="title_Favorites">Favorites</string>
+    <string name="title_Profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main__show_rw_new">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">My name Ahmad Adel Almajdalawi i\'am a students in  IUG , and I love My Labtop see u.  </string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="admin">Admin DashBord</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">My name Ahmad Adel Almajdalawi i\'am a students in  IUG , and I love My Labtop see u.</string>
+
+
+    <string-array name="spinner">
+        <item>Man</item>
+        <item>Kids</item>
+        <item>Woman</item>
+
+    </string-array>
+
+    <string-array name="size">
+        <item>Larg</item>
+        <item>Med</item>
+        <item>Smol</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps1">Map</string>
+
+
+</resources>

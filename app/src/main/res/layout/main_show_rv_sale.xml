@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/Card_Item"
+        android:layout_width="182dp"
+        android:layout_height="269dp"
+        android:background="@drawable/white_circular_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/Item_img"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="@dimen/smaill"
+            android:scaleY="1.1"
+            android:scaleX="1.1"
+            android:src="@drawable/model"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameOfMarkra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahd Othman"
+                android:textColor="@color/gray"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/nameOfitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahd Othman"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+
+            <RatingBar
+                android:id="@+id/Rating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:progressTint="@color/start"
+                android:rating="4"
+                android:stepSize="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textColor="@color/textColor"
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/realNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="350"
+                    android:textColor="@color/textColor"
+                    android:textSize="13sp" />
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/Favorites"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/light_orange_circle"
+                    android:padding="6.5dp"
+                    android:src="@drawable/heart_orange_fill" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
